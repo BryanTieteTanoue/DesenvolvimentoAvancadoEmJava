@@ -1,0 +1,29 @@
+#Paradigma Funcional
+	-Construir um software,a través de  funções puras, evita compartilhamento de estados
+, dados mutáveis e efeitoscolaterais. É declarativa ao invés de imperativa.
+	-Paradigma imperativo: aquele que expressa o código através de comandos ao computador,
+é possível ter controle do estado dos objetos
+	-Paradigma Funcional: damos uma regra, uma declaração de como queremos que o programa se 
+comporte
+	-Composição de funções: criar uma função com base em outras, passar uma função como
+parãmetro 
+	-Função pura: ela é invocada várias vezes com os mesmos valores e produz exatamente o 
+mesmo resultado
+	-imutabilidade: uma vairável ou obejto não pode ser modificado
+
+#Lambdas
+	-Podem facilitar a legibilidade do código
+	-Precisamos de uma interface funcional (apenas um método abstrato)
+	-é possível indicar quando é uma interface funcional "@FunctionInterface", força o compilador
+a dar erro se não estiver seguindo as regras de uma interface funcional
+
+#Recursividade
+	-Um método (função) chma a si mesmo várias vezes
+	-Tail call: não há nenhuma linha de código após a prórpia chamada do método (JAVA NÃO SUPORTA)
+		-Podemos implmentar algo parecido para diminuir o número de chamadas
+	-momorization: otiização da recrsividade, tem uma resposta mais rápida. Armazena um valor
+já processado no cache. Ajuda se uma recurcividade for feita várias vezes. A primeira vez é normal
+a segunda é mais rápida pois está slavo o resultado.
+		-Executar o fatorial de de 5 duas vezes a segunda será mais rápida. Além disso 
+chamar o fatorial de 7 será mais rápido também, pois precisa do fatorial de 5, mas esse já foi feito
+assim ele ajuda a ser mais rápido
