@@ -27,3 +27,18 @@ a segunda é mais rápida pois está slavo o resultado.
 		-Executar o fatorial de de 5 duas vezes a segunda será mais rápida. Além disso 
 chamar o fatorial de 7 será mais rápido também, pois precisa do fatorial de 5, mas esse já foi feito
 assim ele ajuda a ser mais rápido
+
+#Funções de alta ordem
+	-recebem uma função como parâmetro ou retorna uma função
+
+#Consumer 
+	-Consumer não tem retorno
+
+#Function
+	-Passa um valor e retorna outro valor (pode ser o mesmo), mas é obrigatório retornanar algo
+
+#Predicate
+	-Recebem um parâmetro e retornam um true ou false
+
+#Supplier (supridores)
+	-não recebem parâmetro, mas retornam algo que foi definido
