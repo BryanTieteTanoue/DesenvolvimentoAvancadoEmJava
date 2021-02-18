@@ -42,3 +42,14 @@ assim ele ajuda a ser mais rápido
 
 #Supplier (supridores)
 	-não recebem parâmetro, mas retornam algo que foi definido
+
+#Threads
+	-pequeno programa que trabalha como um subsistema, ele se autodivide em duas ou mais tarefas.
+As múltiplas tarefas podem ser executas simultaneamente para rodar masi rápido
+
+#Síncrono
+	-processamentos que ocorrem em sequência (sincronia), ocorre em fila, para um ocorrer o outro
+precisa ser feito antes
+
+#Assìncrono
+	-Processos executados ao mesmo tempo, não precisa esperar outro processo terminar
