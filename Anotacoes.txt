@@ -19,6 +19,7 @@ a dar erro se não estiver seguindo as regras de uma interface funcional
 
 #Recursividade
 	-Um método (função) chma a si mesmo várias vezes
+	
 	-Tail call: não há nenhuma linha de código após a prórpia chamada do método (JAVA NÃO SUPORTA)
 		-Podemos implmentar algo parecido para diminuir o número de chamadas
 	-momorization: otiização da recrsividade, tem uma resposta mais rápida. Armazena um valor
@@ -53,3 +54,10 @@ precisa ser feito antes
 
 #Assìncrono
 	-Processos executados ao mesmo tempo, não precisa esperar outro processo terminar
+	
+#Jigsaw
+	-Modularização do Java, já se queria fazer isso a muito tempo. Devido a muitos
+problemas técnicos foi adiado por duas versões, até ser lançado no Java 9
+	
+	-Cada módulo possui partes dos pacotes do JDK, muitas vezes não se usa todos
+os pacotes (como de SQL ou de interfaces gráficas)
